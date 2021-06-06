@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tem_conv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/app_name"
+            android:textColor="#0B0B0B"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:text="@string/input"
+             />
+
+        <Button
+            android:id="@+id/conv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="@string/conv"
+            android:textSize="20sp"
+            android:backgroundTint="#FF9800" />
+
+        <TextView
+            android:id="@+id/print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="@string/out"
+            android:textColor="#0B0B0B"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="146dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/screen_shot_2021_05_03_at_3_34_57_pm"
+            android:contentDescription="TODO" />
+
+    </RelativeLayout>
+</layout>
